@@ -9,7 +9,7 @@ import Dialog, {
 } from 'material-ui/Dialog';
 import { Redirect, Link } from 'react-router-dom';
 import auth from '../api/auth-helper';
-import { remove } from './api-user.js';
+import { remove } from '../api/api-user.js';
 
 class DeleteUser extends Component {
   state = {

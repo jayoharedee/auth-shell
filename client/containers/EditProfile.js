@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import { Redirect } from 'react-router-dom';
 import auth from '../api/auth-helper';
-import { read, update } from './api-user.js';
+import { read, update } from '../api/api-user.js';
 
 const styles = theme => ({
   card: {
