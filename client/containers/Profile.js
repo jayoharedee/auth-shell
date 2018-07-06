@@ -16,7 +16,7 @@ import Divider from 'material-ui/Divider';
 import { Redirect, Link } from 'react-router-dom';
 import DeleteUser from './DeleteUser';
 import auth from '../api/auth-helper';
-import { read } from './api-user.js';
+import { read } from '../api/api-user.js';
 
 const styles = theme => ({
   root: theme.mixins.gutters({

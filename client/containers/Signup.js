@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Dialog, {
   DialogActions, DialogContent, DialogContentText, DialogTitle,
 } from 'material-ui/Dialog';
-import { create } from './api-user.js';
+import { create } from '../api/api-user.js';
 import AuthForm from './../components/AuthForm';
 
 class Signup extends Component {
