@@ -1,0 +1,13 @@
+{
+    "module": "commonjs",
+    "target": "es6",
+    "compilerOptions": {
+        "target": "es6",
+        "jsx": "react",
+        "module": "commonjs"
+    },
+    "allowSyntheticDefaultImports": true,
+    "exclude": [
+        "node_modules"
+    ]
+}
